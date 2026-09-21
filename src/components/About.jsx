@@ -1,7 +1,7 @@
 import useReveal from "../hooks/useReveal.js";
 
 const POINTS = [
-  "Pursuing a Bachelor of Computer Applications (BCA) at Maharishi Dayanand University, Rohtak, from 2025 to 2027.",
+  "Pursuing a Bachelor of Computer Applications (BCA) at Maharishi Dayanand University, Rohtak, from 2025 to 2028.",
   "Building programming fundamentals in C and Python, and getting comfortable with core web technologies — HTML and CSS.",
   "Learning MySQL and starting to explore how databases connect to real applications.",
   "Interested in web development now, with backend development next on my learning path.",
