@@ -42,7 +42,7 @@ export default function Hero() {
 
         <p className="mt-6 max-w-xl text-[1.05rem] leading-relaxed text-inkSoft">
           I&apos;m currently pursuing my Bachelor of Computer Applications
-          (2025–2027) and building my programming foundations one project at
+          (2025–2028) and building my programming foundations one project at
           a time — learning web development, backend basics, databases and
           Python as I go.
         </p>

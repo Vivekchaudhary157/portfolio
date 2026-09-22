@@ -22,7 +22,7 @@ export default function Education() {
             <p className="mt-1 font-medium text-inkSoft">
               Maharishi Dayanand University, Rohtak
             </p>
-            <p className="mt-1 text-sm text-inkSoft">2025 – 2027</p>
+            <p className="mt-1 text-sm text-inkSoft">2025 – 2028</p>
             <p className="mt-4 leading-relaxed text-inkSoft">
               Building a foundation in programming, databases, software
               development and computer applications — the coursework that
