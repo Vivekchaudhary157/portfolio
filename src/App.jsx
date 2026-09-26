@@ -14,9 +14,11 @@ import BackToTop from "./components/BackToTop.jsx";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-paper text-ink font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 text-ink font-sans">
       <ScrollProgress />
+
       <Navbar />
+
       <main>
         <Hero />
         <About />
@@ -28,6 +30,7 @@ export default function App() {
         <Goals />
         <Contact />
       </main>
+
       <Footer />
       <BackToTop />
     </div>
