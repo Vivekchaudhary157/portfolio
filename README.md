@@ -1,14 +1,25 @@
 # Vivek Kumar — Developer Portfolio
 
-A modern, responsive developer portfolio built with React, Vite and Tailwind CSS.
+A modern, responsive developer portfolio built with **React, Vite, and Tailwind CSS** to showcase my skills, projects, education, coding profiles, and learning journey.
 
-## Tech stack
-- React 18 + Vite
-- Tailwind CSS
-- lucide-react (icons)
+🌐 **Live Portfolio:**
+https://vivekportfolio09.netlify.app/
 
-## Project structure
-```
+---
+
+## 🚀 Tech Stack
+
+* **Frontend:** React 18, Tailwind CSS
+* **Build Tool:** Vite
+* **Icons:** Lucide React
+* **Deployment:** Netlify
+* **Version Control:** Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
 src/
 ├── components/
 │   ├── Navbar.jsx
@@ -24,82 +35,183 @@ src/
 │   ├── Goals.jsx
 │   ├── Contact.jsx
 │   └── Footer.jsx
+│
 ├── hooks/
 │   ├── useReveal.js
 │   └── useActiveSection.js
+│
 ├── App.jsx
 ├── main.jsx
 └── index.css
+│
 public/
 ├── favicon.svg
 ├── robots.txt
 └── 404.html
+
 netlify.toml
 ```
 
-## 1. Install dependencies
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+```
+
+### 2. Install dependencies
+
 ```bash
 npm install
 ```
 
-## 2. Run locally
+### 3. Run the project locally
+
 ```bash
 npm run dev
 ```
-Opens at `http://localhost:5173`.
 
-## 3. Build for production
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+Create a production build using:
+
 ```bash
 npm run build
 ```
-Output goes to the `dist/` folder. Preview it locally with `npm run preview`.
 
-## 4. Push to GitHub
+The production files will be generated inside the `dist/` folder.
+
+To preview the production build locally:
+
 ```bash
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
+npm run preview
 ```
 
-## 5. Deploy on Netlify
-1. Go to [app.netlify.com](https://app.netlify.com) and log in.
-2. Click **Add new site → Import an existing project**.
-3. Connect GitHub and select this repository.
-4. Build settings (should auto-detect from `netlify.toml`):
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-5. Click **Deploy site**.
-6. Once deployed, go to **Site configuration → Forms** to confirm the "contact" form was detected (Netlify scans the build output for the hidden form in `index.html`).
+---
 
-Your site will be live at a `*.netlify.app` URL, which you can later replace with a custom domain.
+## 🌐 Deployment
 
-## 6. Update your social links later
-All links live in one place per component. Search for the URL you want to change:
-- `src/components/Hero.jsx`
-- `src/components/Contact.jsx`
-- `src/components/CodingProfiles.jsx`
-- `src/components/Footer.jsx`
+This portfolio is deployed using **Netlify**.
 
-Replace the `href` value with your new URL.
+🔗 **Live Website:**
+https://vivekportfolio09.netlify.app/
 
-## 7. Add real projects later
-Open `src/components/Projects.jsx` and edit the `PROJECTS` array. Each project looks like:
+### Netlify Build Settings
+
+```text
+Build command: npm run build
+Publish directory: dist
+```
+
+The project includes `netlify.toml` for deployment configuration.
+
+---
+
+## 📬 Contact Form
+
+The portfolio includes a contact form configured with **Netlify Forms**.
+
+Features include:
+
+* Netlify form detection
+* Honeypot spam protection
+* Responsive contact section
+* Easy email/contact information updates
+
+---
+
+## 🔗 Coding & Social Profiles
+
+* **GitHub:** https://github.com/Vivekchaudhary157
+* **LeetCode:** https://leetcode.com/u/Vivek_923402/
+* **LinkedIn:** https://www.linkedin.com/in/vivek-kumar-6312033ab/
+
+---
+
+## 🛠️ Adding Projects
+
+Projects can be added or updated in:
+
+```text
+src/components/Projects.jsx
+```
+
+Example:
+
 ```js
 {
   title: "Project Name",
-  status: "Coming Soon", // change to something like "Live" once ready, or remove the badge
-  description: "What it does.",
-  tech: ["Tech", "Stack"],
-  githubUrl: "https://github.com/you/repo", // or null
-  liveUrl: "https://your-live-demo.com",    // or null
+  status: "Coming Soon",
+  description: "A short description of the project.",
+  tech: ["React", "JavaScript", "Tailwind CSS"],
+  githubUrl: null,
+  liveUrl: null,
 }
 ```
-Only fill in `githubUrl` / `liveUrl` once those links actually exist — leave them `null` otherwise, and the card will show "Live demo unavailable yet" instead of a broken link.
 
-## Notes
-- The contact form is wired for Netlify Forms (`data-netlify="true"`) with a honeypot field for spam protection, and a hidden static copy in `index.html` so Netlify's build bot can detect the fields.
-- Update the `[Your Email]` placeholder in `src/components/Contact.jsx` with your real email once you have one you want to publish.
-- Update the canonical URL and Open Graph URLs in `index.html` once your Netlify domain (or custom domain) is live.
+Once a project is available, update the links:
+
+```js
+githubUrl: "https://github.com/username/project",
+liveUrl: "https://project-demo.com",
+```
+
+Avoid adding placeholder or broken links.
+
+---
+
+## 🎯 Current Focus
+
+I am currently focused on improving my skills in:
+
+* Python
+* Web Development
+* Backend Development
+* MySQL & Database Management
+* Data Structures & Algorithms
+* AI/ML fundamentals
+
+---
+
+## 📌 Future Goals
+
+* Build practical real-world projects
+* Improve problem-solving skills
+* Learn backend development
+* Explore AI/ML
+* Contribute to open-source projects
+* Build and deploy more full-stack applications
+
+---
+
+## 👨‍💻 About Me
+
+I am a beginner developer and BCA student interested in software development, web technologies, backend development, and Artificial Intelligence/Machine Learning.
+
+I enjoy learning new technologies and building projects to improve my practical development skills.
+
+---
+
+## ⭐ Portfolio
+
+If you would like to explore my work, visit my portfolio:
+
+### 🔗 https://vivekportfolio09.netlify.app/
+
+---
+
+## 📄 License
+
+This project is created for personal portfolio and learning purposes.
